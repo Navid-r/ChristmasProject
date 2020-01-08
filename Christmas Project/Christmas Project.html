@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Logic Gates INNIT</title>
+    <link rel="stylesheet" type="text/css" href="Style.css">
+    <script src="ChristmasInnit.js"></script>
+</head>
+<body>
+<h1>Logic Gate</h1>
+
+<form>
+  <label>Choose your gate</label><br><br><br>
+  <input type="radio" id="radio1" name="LogicGate" value="AND">AND<br>
+  <input type="radio" id="radio2" name="LogicGate" value="OR">OR<br>
+  <input type="radio" id="radio3" name="LogicGate" value="XOR">XOR<br>
+  <input type="radio" id="radio4" name="LogicGate" value="NAND">NAND<br>
+  <input type="radio" id="radio5" name="LogicGate" value="NOR">NOR<br>
+  input value a
+  <select>
+    <option value="0" id="null">0</option>
+    <option value="1" id="juan">1</option>
+  </select><br>
+  input value b
+  <select>
+    <option value="0" id="zero">0</option>
+    <option value="1" id="one">1</option>
+  </select><br>
+</form>
+<button onclick="GateLogic()">Enter</button><br>
+Answer:
+<div id="answer"></div><br><br><br>
+<img id="imageGate" src="and.png">
+</body>
+</html>
